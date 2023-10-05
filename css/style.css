@@ -4,19 +4,26 @@
     --mainHeaderGrad2: var(var(--topHeaderColor));
     --mainHeaderTextColor: #fdeaee;
     --bottomHeaderColor: #fff8ce;
-    --content1Color: #f5eedc;
+    --content1bgColor: #f5eedc;
     --white: #fefffb;
-    --content2Color: #f9f5ea;
+    --content2bgColor: #f9f5ea;
     --content2HeadingColor: #9a9d06;
-    --topFooterColor: #66635e;
+    --topFooterBgColor: #66635e;
     --topFooterTextColor: #827f7a;
     --footerGrad1: #605d58;
     --footerGrad2: #5c5954;
     --footerHeaderColor: #d0ccc3;
-    --bottomFooterColor: #413e39;
+    --bottomFooterBgColor: #413e39;
+    --textColor: #762931;
     --khula: 'Khula', sans-serif;
     --openSans: 'Open Sans', sans-serif;
     --roboto: 'Roboto', sans-serif;
+    --client1: 'Caveat', cursive;
+    --client2: 'Courier Prime', monospace;
+    --client3: 'Oooh Baby', cursive;
+    --client4: 'Qwitcher Grypen', cursive;
+
+
 
 }
 
@@ -24,6 +31,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: var(--content1bgColor);
 }
 
 section {
@@ -42,7 +53,7 @@ section {
 
 .main-header {
     background-color: var(--mainHeaderGrad1);
-    background-image: linear-gradient(var(--mainHeaderGrad1), var(--mainHeaderGrad2), var(--mainHeaderGrad1));
+    background-image: linear-gradient(var(--mainHeaderGrad1), var(--mainHeaderGrad2));
 }
 
 .heading {
